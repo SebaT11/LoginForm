@@ -1,116 +1,115 @@
 @import url(reset.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@600&display=swap");
 
-body{
-    font-family:'poppins', sans-serif;
-    min-height: 100vh;
-    background: linear-gradient(to right, #333399, #ff00cc);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  font-family: 'poppins', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right, #333399, #ff00cc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.login-card{
-    width: 450px;
-    background: rgba(255, 255, 255, .5);
-    padding: 4rem;
-    border-radius: 10px;
-    position: relative;
+.login-card {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 4rem;
+  border-radius: 10px;
+  position: relative;
 }
 
-.login-card::before{
-    content:'' ;
-    position: absolute;
-    background: rgba(255, 255, 255, .15);
-    inset: 0;
-    transform: rotate(-5deg);
-    z-index: -1;
+.login-card::before {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.15);
+  inset: 0;
+  transform: rotate(-5deg);
+  z-index: -1;
 }
 
-.login-card-logo{
-    margin-bottom: 2rem;
+.login-card-logo {
+  margin-bottom: 2rem;
 }
 
-.login-card-logo img{
-    width: 60px;
+.login-card-logo img {
+  width: 60px;
 }
 
 .login-card-logo,
 .login-card-header,
 .login-card-footer {
-    text-align: center;
+  text-align: center;
 }
 
-.login-card a{
-    text-decoration: none;
-    color: #35339a;
+.login-card a {
+  text-decoration: none;
+  color: #35339a;
 }
 
 .login-card a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .login-card-header {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .login-card-header h1 {
-    font-size:2rem;
-    font-weight: 600;
-    margin-bottom: .5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .login-card-header h1 + div {
-    font-size: calc(1rem * .8);
-    opacity: .8;
+  font-size: calc(1rem * 0.8);
+  opacity: 0.8;
 }
 
 .login-card-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .login-card-form .form-item {
-    position: relative;
+  position: relative;
 }
 
 .login-card-form .form-item .form-item-icon {
-    position:absolute;
-    top: .82rem;
-    left: 1.4rem;
-    font-size: 1.3rem;
-    opacity: .4;
+  position: absolute;
+  top: 0.82rem;
+  left: 1.4rem;
+  font-size: 1.3rem;
+  opacity: 0.4;
 }
-.login-card-form .checkbox{
-    display: flex;
-    align-items: center;
-    gap: 9px;
+.login-card-form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 9px;
 }
 
 .login-card-form .form-item-other {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: calc(1* .8);
-    margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(1 * 0.8);
+  margin-bottom: 0.5rem;
 }
 
-.login-card-footer{
-    margin-top: 1.5rem;
-    font-size: calc(1rem * .6);
+.login-card-footer {
+  margin-top: 1.5rem;
+  font-size: calc(1rem * 0.6);
 }
 
 .login-card input [type="text"],
 .login-card input [type="password"],
 .login-card input [type="email"] {
-    border: none;
-    outline: none;
-    background: rgba(255, 255, 255, .3);
-    padding: 1rem 1.5rem;
-    padding-left: calc(1rem * 3.5rem);
-    border-radius: 100px;
-    width: 100px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1rem 1.5rem;
+  padding-left: calc(1rem * 3.5rem);
+  border-radius: 100px;
+  width: 100px;
 }
-
